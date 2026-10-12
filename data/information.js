@@ -1,12 +1,12 @@
 export const information = {
-  name: "Kaia Wedding",
-  city: "Purbalingga",
-  phone: "6285281002753",
-  phoneDisplay: "+62 852-8100-2753",
-  email: "kaiawedding@gmail.com",
+  name: "Cerita Kita Wedding",
+  city: "Surabaya",
+  phone: "6281547195555",
+  phoneDisplay: "+62 815-4719-5555",
+  email: "ceritakitawedding@gmail.com",
   address:
-    "Jl. MT. Haryono, RT.003/RW.002, Desa_karangsentul, Karangsentul, Kec. Padamara, Kabupaten Purbalingga, Jawa Tengah 53372",
-  instagram: "@kaiawedding",
+    "Jl. Mayang No.14, Bunulrejo, Kec. Blimbing, Kota Malang, Jawa Timur 65123",
+  instagram: "@ceritakita_weddingorganizer",
   officeHours: "Mon - Sat: 09.00 - 18.00 WIB",
-  map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.701788965562!2d109.34341827990141!3d-7.387276353676669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655934c1e87a57%3A0xc89571f6926008a4!2sKaia%20Wedding%20Organizer!5e0!3m2!1sid!2sid!4v1791768926146!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>',
+  map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.3293232878373!2d112.64013037516185!3d-7.9648777793827366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6297678a13d03%3A0xbeca399b5afd8321!2sKisah%20Kita%20Wedding%20Organizer!5e0!3m2!1sid!2sid!4v1791796878827!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>',
 };
