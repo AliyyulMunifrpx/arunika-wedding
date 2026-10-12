@@ -55,15 +55,15 @@ export default function ContactSection() {
     e.preventDefault();
 
     const waText =
-      `Halo ${information.instagram},\n\n` +
-      `Saya ingin berkonsultasi mengenai layanan Wedding Organizer:\n\n` +
-      `• *Nama:* ${formData.name}\n` +
-      `• *No. WhatsApp:* ${formData.phone}\n` +
-      `• *Rencana Tanggal:* ${formData.weddingDate || "-"}\n` +
-      `• *Estimasi Tamu:* ${formData.guestCount || "-"}\n` +
-      `• *Layanan:* ${formData.service}\n` +
-      `• *Catatan / Pesan:* ${formData.message || "-"}\n\n` +
-      `Terima kasih!`;
+      `Hello ${information.instagram},\n\n` +
+      `I would like to inquire about your wedding planning services:\n\n` +
+      `• *Name:* ${formData.name}\n` +
+      `• *WhatsApp Number:* ${formData.phone}\n` +
+      `• *Planned Date:* ${formData.weddingDate || "-"}\n` +
+      `• *Estimated Number of Guests:* ${formData.guestCount || "-"}\n` +
+      `• *Services:* ${formData.service}\n` +
+      `• *Notes / Message:* ${formData.message || "-"}\n\n` +
+      `Thank you!`;
 
     const encodedText = encodeURIComponent(waText);
     const waUrl = `https://wa.me/${information.phone}?text=${encodedText}`;
